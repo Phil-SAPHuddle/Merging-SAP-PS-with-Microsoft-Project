@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProjectAddIn2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TestDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Projects\Testing\</Value>
+    </Setting>
+    <Setting Name="Client" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">800</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxx</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxx</Value>
+    </Setting>
+    <Setting Name="Lang" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EN</Value>
+    </Setting>
+    <Setting Name="ASHOST" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xxx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

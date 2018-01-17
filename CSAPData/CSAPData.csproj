@@ -1,0 +1,551 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{AB7798E3-85E6-4C27-B436-1D65820332D0}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CSAPData"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "CSAPProject"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "SAP.Connector"
+                    AssemblyName = "SAP.Connector"
+                    HintPath = "C:\Program Files\SAP\SAP .NET Connector 2.0\SAP.Connector.dll"
+                    AssemblyFolderKey = "hklm\sap .net connector"
+                />
+                <Reference
+                    Name = "SAP.Connector.Rfc"
+                    AssemblyName = "SAP.Connector.Rfc"
+                    HintPath = "C:\Program Files\SAP\SAP .NET Connector 2.0\\SAP.Connector.Rfc.DLL"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CSAPData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SAPProxy1.sapwsdl"
+                    BuildAction = "None"
+                    Generator = "SAPConnectorGenerator"
+                    LastGenOutput = "SAPProxy1.cs"
+                    CustomToolNamespace = "CSAPData"
+                />
+                <File
+                    RelPath = "BAPI_2002_DESCR_RANGE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_2002_DESCR_RANGETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_2002_PD_RANGE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_2002_PD_RANGETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENT.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENT_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENT_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENT_UPD.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENT_UPDTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_ELEMENTTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONE_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONE_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONE_UPD.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONE_UPDTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_ACT_MILESTONETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_BUS2001_DETAIL.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_COMPONENT_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_COMPONENT_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_METH_MESSAGE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_METH_MESSAGETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_METHOD_PROJECT.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_METHOD_PROJECTTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITY.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITY_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITY_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITY_UP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITY_UPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_ACTIVITYTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATION.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATION_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATION_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATION_UP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATION_UPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_RELATIONTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_UPDATE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORK_UPDATETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_NETWORKTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_PROJECT_DEFINITION.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_PROJECT_DEFINITION_EX.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_PROJECT_DEFINITION_UP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENT.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENT_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENT_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENT_UPDATE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENT_UPDATETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENTS.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENTSTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_ELEMENTTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_HIERARCHIE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_HIERARCHIETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONE.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONE_EXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONE_EXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONE_UPD.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONE_UPDTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPI_WBS_MILESTONETable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIPAREX.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIPAREXTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIPREXP.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIPREXPTable.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIRET2.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIRET2Table.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BAPIRETURN1.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SAPProxy1.cs"
+                    DependentUpon = "SAPProxy1.sapwsdl"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    AutoGen = "True"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjectAddIn2.CProject">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAGAEAEAAAgGAQCAAAIAEAAAEAIAEAAAAQ=</HashCode>
+      <FileName>CProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.CSAPInterface">
+    <Position X="6" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIIAAIgAkCCCACIAABEgQAIAiAASAAIgCEJRlAIAABA=</HashCode>
+      <FileName>CSAPInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.TaskType" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAEQIACA=</HashCode>
+      <FileName>CTaskHier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.CTaskHier">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAAgABAAAAAEAABAACAACABCgAQEABCAAAAAAACAQ=</HashCode>
+      <FileName>CTaskHier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.CTaskHierarchy" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAIAAAAQBgAAAAAAAAAAIAAAAIAAAAIAAAAAAAIAA=</HashCode>
+      <FileName>CTaskHier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ProjectAddIn2.frmProjectSelection" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAACEAAAKQAMACAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmProjectSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.frmSAPData" Collapsed="true">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fBCgJDwKACABAKBACIKwgADDEgCiGIIIAoJBACNAABk=</HashCode>
+      <FileName>frmSAPData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.ThisAddIn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAwAAiQCBEBESAAAQAAgBwAAAEAADQwAAgAIAAAAKg=</HashCode>
+      <FileName>ThisAddIn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ProjectAddIn2.Globals" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAEAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectAddIn2.Properties.Settings" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ProjectAddIn2.AddInInterface">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ThisAddIn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.4" />
+</ClassDiagram>
